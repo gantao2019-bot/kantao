@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Local env files (only .env.example is committed)
+/.env*
+!/.env.example
+
+# Misc
+*.log
+.DS_Store
