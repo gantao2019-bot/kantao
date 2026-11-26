@@ -216,6 +216,16 @@ export const pageMeta: Record<string, Record<Locale, { title: string; descriptio
       "description": "Marlan Space and Loft Orbital unveiled a $1B, 50-satellite AI constellation in Paris. What onboard intelligence changes for data buyers — and what it does not."
     }
   },
+  "resources/strix-14-night-owls-never-sleep": {
+    "zh-hk": {
+      "title": "夜貓子不眠：StriX-14 雷達衛星升空 | KANTAO",
+      "description": "Synspective 第 14 顆 StriX 雷達衛星 11 月 27 日搭乘 Rocket Lab Electron 升空。日本全天候雷達星座擴張，對保險與基建買家意味著什麼。"
+    },
+    "en": {
+      "title": "StriX-14: Japan's Radar Constellation Grows | KANTAO",
+      "description": "Synspective's 14th StriX radar satellite launches 27 Nov on Rocket Lab's Electron. What Japan's radar build-out means for insurers and infrastructure buyers."
+    }
+  },
   "ai-facts": {
     "zh-hk": {
       "title": "KANTAO 官方事實 | KANTAO",

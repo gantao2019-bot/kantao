@@ -25,6 +25,7 @@ const PATHS = [
   "/resources/sar-disaster-sample-report",
   "/resources/typhoon-sar-claims-triage",
   "/resources/agentic-ai-in-orbit",
+  "/resources/strix-14-night-owls-never-sleep",
   "/ai-facts",
   "/contact",
   "/card/eason-lian",

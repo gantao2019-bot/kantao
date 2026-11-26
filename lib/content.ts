@@ -1371,6 +1371,148 @@ export const articles: Record<string, Record<Locale, ArticleContent>> = {
       "questionsTitle": "",
       "questions": []
     }
+  },
+  "resources/strix-14-night-owls-never-sleep": {
+    "zh-hk": {
+      "category": "觀點",
+      "title": "夜貓子不眠：StriX-14 與日本雷達衛星競賽",
+      "intro": "11 月 27 日香港時間早上 8 時 05 分（UTC 零時 05 分），一枚 Rocket Lab Electron 火箭將從新西蘭馬希亞半島的第一發射場升空，搭載 Synspective 的第 14 顆 StriX 合成孔徑雷達（SAR）衛星。這次任務的名字叫「Night Owls Never Sleep」——夜貓子不眠。",
+      "date": "2026-11-26",
+      "readTime": "5 分鐘",
+      "audienceLabel": "適合讀者",
+      "audience": "買賣或使用對地觀測數據的團隊。",
+      "boundaryLabel": "聲明",
+      "boundary": "本文僅作一般資訊參考，整理自截至 2026年11月26日的公開宣布與報道，不構成投資、法律或技術意見。發射時間表、星座計劃與能力以相關方公布為準，並可能有所調整；本文所述發射為已排定、尚未執行的發射。",
+      "sections": [
+        {
+          "n": "01",
+          "heading": "升空的是什麼",
+          "kind": "p",
+          "text": "這是不到兩週內第二顆日本雷達衛星搭乘 Electron 升空，一個月內第三顆。速度本身就是新聞：日本的商業雷達星座不再是簡報上的計劃，而是一枚一枚專屬發射、正在成形的現實。StriX 是 Synspective 的小型雷達衛星。與光學相機不同，雷達衛星主動向地面發射無線電波、讀取回波成像，因此可以穿透雲層、在夜間觀測。Synspective 表示，其數據用於城市發展規劃、建築與基礎設施監測，以及災害應對。新衛星將進入 569 公里低地球軌道、傾角 38 度——這個軌道設計，有利於對亞太地區進行頻繁觀測。Synspective 2018 年在東京成立，2024 年 12 月在東證 Growth 市場上市，目標是建成 30 顆衛星的 StriX 星座。背後的商業判斷很明確：雷達數據的價值不在於賣圖片，而在於反覆量度變化——地表位移、水浸範圍、受損建築——在同一個地方、任何天氣下重複觀測。2026 年，公司先後與 Rocket Lab 簽下 20 次額外專屬 Electron 發射，又與 Firefly Aerospace 簽下最多 10 次 Alpha 發射、可搭載最多 20 顆 StriX 衛星。發射清單已經排到數年之後。",
+          "items": []
+        },
+        {
+          "n": "02",
+          "heading": "另一支日本星座正在並行競逐",
+          "kind": "p",
+          "text": "Synspective 並非獨行。國內對手 iQPS 單在 11 月就發射了兩顆雷達衛星：11 月 3 日的 QPS-SAR-20，以及 11 月 14 日的 QPS-SAR-19——後者搭乘 Electron 第 100 次飛行，任務名為「山神崛起」。iQPS 的目標，是在 2028 年 5 月前營運 24 顆衛星，長遠對指定區域做到平均約 10 分鐘觀測一次。兩家日本公司、兩個雷達星座、同一家發射商、同一座發射場——背後是同一個前提：亞太的雷達覆蓋，正在從「逐張訂購圖片」變成「按需訂閱的服務」。對買家來說，實際影響是供應：過去要在東亞上空調度雷達衛星，得與全球用戶共用一條隊列；星座成形之後，隊列縮短、重訪間隔收窄，季風與颱風季節也不再是等雲散的理由。",
+          "items": []
+        },
+        {
+          "n": "03",
+          "heading": "為什麼是雷達，對決策有什麼用",
+          "kind": "p",
+          "text": "光學影像直觀，人人看得懂照片。雷達影像較難直接閱讀，而它的商業價值正在於分析，而非影像本身。核心產品是變化偵測。把同一地點相隔數週、數月拍攝的雷達觀測對比，可以偵測地表位移——建築物、鐵路路堤、水壩或填海海岸線之下土地的緩慢沉降或移動。Synspective 已發表的工作包括全坡面地表形變監測（以實地量測驗證），以及 2024 年能登半島地震後對志賀町市區的災損評估。2021 年，公司發表了新加坡樟宜機場的雷達影像——機場建於填海土地上，需要持續監測沉降，與香港大片臨海填海地的工程問題如出一轍。水浸測繪是另一半價值。雷達可以在雲雨中看到水面——正是最需要水浸資訊、而光學衛星最常失明的時刻。對保險公司來說，災損範圍可以在事件仍在發展時取得，而不是等一週後天晴才看到。",
+          "items": []
+        },
+        {
+          "n": "04",
+          "heading": "對衛星數據買家意味著什麼",
+          "kind": "p",
+          "text": "星座擴張帶來三個實際影響。第一，重訪頻率成為關鍵規格。覆蓋與影像質素已是雷達星座的基本條件，分別在於多常回到同一個地方。StriX-14 沒有改變雷達能看到什麼，它改變的是同一地點可以多常被重新觀測——於是，坡面出現新裂縫、水浸範圍擴大，這些變化可以被確認，而不是被推測。第二，調度變得容易安排，但規格仍然要講準。專屬小型發射器讓星座營運商掌握自己的發射時間表，衛星越多，調度名額也越多。但買家的紀律沒有變：先定義範圍、要偵測的變化、頻率與可接受的誤報率，再下達任務。衛星飛過頭頂的次數再多，問題問得不準也沒有用。第三，證據標準不會降低。更快的水浸圖，仍然取決於用作對照的基線與製作方法。對保險、金融與基建用戶來說，能在理賠或工程決策中站得住腳的交付物不是警報，而是時序：經過校準的觀測、在同一地點長期重複、可核查的方法。衛星越多，時序越密；但它不能取代時序本身。",
+          "items": []
+        },
+        {
+          "n": "05",
+          "heading": "香港與亞太怎麼看",
+          "kind": "p",
+          "text": "這次發射的地理布局值得留意：衛星在日本製造、從新西蘭發射、進入有利於亞太的傾角軌道。對香港的團隊來說，眼前的意義具體而非抽象：颱風季節的水浸測繪、填海土地與北部都會區建築工程的地表位移監測，以及為本港保險市場提供更快的災後損毀評估。這一切都不需要等星座建成。今日已有的數據——同一地點數月、數年重複的雷達觀測——已經是建立位移基線與水浸歷史的材料。新的發射讓這份紀錄更密，而不是從零開始。",
+          "items": []
+        },
+        {
+          "n": "06",
+          "heading": "KANTAO",
+          "kind": "p",
+          "text": "KANTAO 立足香港，為亞太及海外團隊提供標準化衛星影像、時序對地觀測數據集與 API 接入。我們的衛星 AI 訂閱（Asset Monitor）正在籌備中，現正招募試點合作夥伴。我們的做法是試點先行：先在小範圍確認證據質素，再擴大使用。",
+          "items": []
+        },
+        {
+          "n": "07",
+          "heading": "資料來源",
+          "kind": "list",
+          "text": "",
+          "items": [
+            "Synspective StriX-14 發射，「Night Owls Never Sleep」，定於 2026年11月27日 UTC 零時 05 分，Rocket Lab Electron，馬希亞半島第一發射場：https://spacemushroom.com/community/post/185-synspective-strix-14-on-electron-launch-27-november/",
+            "Synspective，StriX 星座（30 顆衛星目標；災害、基建與資源監測）：https://www.synspective.com/satellite/strix-constellation/",
+            "Firefly Aerospace 協議，最多 10 次 Alpha 發射、可搭載最多 20 顆 StriX 衛星，2026年11月11日：https://newspaceeconomy.ca/2026/11/11/firefly-alpha-synspective-10-launches-2030/",
+            "Rocket Lab Electron 第 100 次發射，QPS-SAR-19，2026年11月14日：https://spaceandsky.com/rocket-lab-electron-100th-launch-iqps-mountain-god-rises/",
+            "Synspective 城市韌性 SAR 分析方案，歐洲太空總署商業應用，2026年9月24日（30+ 顆衛星目標；能登半島災損評估；地表位移監測）：https://business.esa.int/sites/business/files/7_20260924_Synspective_IM.pdf"
+          ]
+        }
+      ],
+      "questionsTitle": "",
+      "questions": []
+    },
+    "en": {
+      "category": "Perspective",
+      "title": "StriX-14: Japan's Radar Constellation Keeps Growing",
+      "intro": "On 27 November, at 00:05 UTC — 08:05 Hong Kong time — a Rocket Lab Electron rocket is scheduled to lift off from Launch Complex 1 on New Zealand's Mahia Peninsula, carrying Synspective's 14th StriX synthetic aperture radar (SAR) satellite. The mission is called \"Night Owls Never Sleep\".",
+      "date": "2026-11-26",
+      "readTime": "5 min read",
+      "audienceLabel": "Audience",
+      "audience": "Teams that buy, sell or build on Earth observation data.",
+      "boundaryLabel": "Disclaimer",
+      "boundary": "This article is for general information only. It summarises public announcements and reporting as of 26 November 2026 and does not constitute investment, legal or technical advice. Launch schedules, constellation plans and capabilities are as announced by the parties involved and may change; the launch described here is scheduled, not yet flown.",
+      "sections": [
+        {
+          "n": "01",
+          "heading": "What is launching",
+          "kind": "p",
+          "text": "It is the second Japanese radar satellite to ride an Electron in under a fortnight, and the third in under a month. Japan's commercial radar constellations are no longer a plan on a slide; they are being assembled one dedicated launch at a time, in full view. StriX is Synspective's small SAR satellite. Unlike an optical camera, a radar satellite sends out its own radio pulses and reads the echoes, imaging the ground through cloud and in darkness. Synspective says its data supports urban planning, infrastructure monitoring and disaster response. The new satellite is bound for a 569-kilometre orbit at 38 degrees inclination, chosen to favour frequent passes over the Asia-Pacific. Synspective was founded in Tokyo in 2018 and listed on the Tokyo Stock Exchange Growth Market in December 2024. Its stated aim is a 30-satellite constellation, built on one commercial bet: that radar data is worth more as repeated measurement of change — ground movement, flood extent, damaged buildings — than as pictures. In 2026 the company signed for 20 more dedicated Electron launches with Rocket Lab, and up to 10 Alpha launches with Firefly Aerospace carrying as many as 20 StriX satellites. The manifest now stretches years ahead.",
+          "items": []
+        },
+        {
+          "n": "02",
+          "heading": "A second Japanese constellation is racing alongside",
+          "kind": "p",
+          "text": "Synspective is not alone. Domestic rival iQPS launched two radar satellites on Electron in November alone: QPS-SAR-20 on 3 November, and QPS-SAR-19 on 14 November — the latter on Electron's 100th flight, \"The Mountain God Rises\". iQPS aims to operate 24 satellites by May 2028, with a longer-term goal of watching a chosen region at an average interval of about 10 minutes. For buyers, the practical effect is supply: tasking a radar satellite over East Asia used to mean joining a queue shared with the rest of the world. As these constellations fill out, the queue shortens, revisit intervals tighten, and the monsoon and typhoon seasons stop being a reason to wait for the clouds to clear.",
+          "items": []
+        },
+        {
+          "n": "03",
+          "heading": "Why radar, and why it matters for decisions",
+          "kind": "p",
+          "text": "The core product is change detection. Comparing radar observations of the same place weeks or months apart reveals ground displacement — the slow sinking or shifting of land beneath a building, a railway embankment, a dam or a reclaimed shoreline. Published examples include full-slope deformation monitoring validated against field measurements, and a damage assessment of downtown Shika after the 2024 Noto Peninsula earthquake. In 2021 it published a radar image of Singapore's Changi Airport, built on reclaimed land and monitored for subsidence — the same problem faced by much of Hong Kong's waterfront. Flood mapping is the other half of the case. Radar sees water through cloud and rain — exactly when flood information is most needed and optical satellites are most often blind. For an insurer, that means a damage footprint while the event is still unfolding, not a week later when the sky clears.",
+          "items": []
+        },
+        {
+          "n": "04",
+          "heading": "What it means for buyers of satellite data",
+          "kind": "p",
+          "text": "Three practical consequences follow from the build-out. Revisit becomes the specification that matters. Coverage and image quality are table stakes now; what differentiates constellations is how often they return to the same place. StriX-14 does not change what radar can see. It changes how often the same site can be re-observed — and therefore how quickly a change, a new crack in a slope or a fresh flood extent, can be confirmed rather than assumed. Tasking gets cheaper to arrange, but not simpler to specify. Dedicated small launchers give operators control of their own schedule, and more satellites mean more tasking slots. The buyer's discipline does not change: define the area, the change that matters, the frequency and the false-alarm tolerance before tasking. A satellite that passes overhead more often is only useful if the question it is asked is precise. The evidence standard does not move. A faster flood map is only as good as the baseline it is compared against and the method used to produce it. For insurance, finance and infrastructure users, what stands up in a claim or an engineering decision is not the alert but the time series: a calibrated observation, repeated over the same place, with a method that can be checked. More satellites make that time series denser; they do not replace it.",
+          "items": []
+        },
+        {
+          "n": "05",
+          "heading": "A Hong Kong and Asia-Pacific read",
+          "kind": "p",
+          "text": "Built in Japan, launched from New Zealand and flown into orbits inclined to favour the Asia-Pacific, this build-out has concrete near-term relevance for Hong Kong teams: typhoon-season flood mapping, ground movement monitoring across reclaimed land and the Northern Metropolis construction programme, and faster post-event damage assessment for the insurance market that underwrites the region's property and infrastructure. None of this requires waiting for the constellation to be finished. The data that exists today — radar observations of the same sites, repeated over months and years — is already the material from which displacement baselines and flood histories are built. New launches add density to that record; they do not start it.",
+          "items": []
+        },
+        {
+          "n": "06",
+          "heading": "KANTAO",
+          "kind": "p",
+          "text": "KANTAO supplies standardised satellite imagery, time-series Earth observation datasets and API access from Hong Kong. Our Satellite AI subscription (Asset Monitor) is in preparation, and we are seeking pilot partners — pilot-first, as always: confirm the evidence on a small area, then scale.",
+          "items": []
+        },
+        {
+          "n": "07",
+          "heading": "Sources",
+          "kind": "list",
+          "text": "",
+          "items": [
+            "Synspective StriX-14 launch, \"Night Owls Never Sleep\", scheduled 27 November 2026, 00:05 UTC, Rocket Lab Electron, Launch Complex 1, Mahia Peninsula: https://spacemushroom.com/community/post/185-synspective-strix-14-on-electron-launch-27-november/",
+            "Synspective, StriX constellation (30-satellite aim; disaster, infrastructure and resource monitoring): https://www.synspective.com/satellite/strix-constellation/",
+            "Firefly Aerospace agreement for up to 10 Alpha launches carrying up to 20 StriX satellites, 11 November 2026: https://newspaceeconomy.ca/2026/11/11/firefly-alpha-synspective-10-launches-2030/",
+            "Rocket Lab Electron 100th launch, QPS-SAR-19, 14 November 2026: https://spaceandsky.com/rocket-lab-electron-100th-launch-iqps-mountain-god-rises/",
+            "Synspective SAR analytics for urban resilience, ESA Business Applications, 24 September 2026 (30+ satellites by 2028; Noto Peninsula damage assessment; ground displacement monitoring): https://business.esa.int/sites/business/files/7_20260924_Synspective_IM.pdf"
+          ]
+        }
+      ],
+      "questionsTitle": "",
+      "questions": []
+    }
   }
 };
 
@@ -2501,6 +2643,15 @@ export const resourcesIndex: Record<Locale, IndexContent> = {
         "date": "2026-11-26",
         "readTime": "5 分鐘",
         "category": "衛星行業觀點",
+        "title": "夜貓子不眠：StriX-14 與日本雷達衛星競賽",
+        "desc": "11 月 27 日香港時間早上 8 時 05 分，一枚 Rocket Lab Electron 火箭將從新西蘭馬希亞半島升空，搭載 Synspective 的第 14 顆 StriX 雷達衛星。日本全天候雷達星座擴張，對保險與基建買家意味著什麼。",
+        "href": "resources/strix-14-night-owls-never-sleep"
+      },
+      {
+        "type": "觀點",
+        "date": "2026-11-26",
+        "readTime": "5 分鐘",
+        "category": "衛星行業觀點",
         "title": "人工智能上軌道：10億美元AI衛星星座，改變了什麼？",
         "desc": "11月25日，在巴黎國際太空峰會上，Loft Orbital 與 Marlan Space 宣布一項 10 億美元計劃，要建造合作方口中的全球最大人工智能衛星基礎設施，由法國總統馬克龍宣布。計劃把已驗證的 10 顆衛星示範，擴大為 50 顆衛星的星座。",
         "href": "resources/agentic-ai-in-orbit"
@@ -2566,6 +2717,15 @@ export const resourcesIndex: Record<Locale, IndexContent> = {
     "title": "Check the data fit. Assess the delivery value.",
     "intro": "Use illustrative cases, white papers, FAQs, sample reports and methodology to assess your area of interest, update needs, validation approach and delivery boundaries before a pilot or procurement decision.",
     "items": [
+      {
+        "type": "Perspective",
+        "date": "2026-11-26",
+        "readTime": "5 min read",
+        "category": "Satellite industry perspective",
+        "title": "StriX-14: Japan's Radar Constellation Keeps Growing",
+        "desc": "On 27 November, a Rocket Lab Electron rocket is scheduled to lift off from New Zealand's Mahia Peninsula carrying Synspective's 14th StriX radar satellite. What Japan's radar build-out means for insurers and infrastructure buyers.",
+        "href": "resources/strix-14-night-owls-never-sleep"
+      },
       {
         "type": "Perspective",
         "date": "2026-11-26",
