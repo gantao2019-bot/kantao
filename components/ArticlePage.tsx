@@ -1,7 +1,7 @@
 import type { ArticleContent, Locale } from "../lib/content";
 import CtaBand from "./CtaBand";
 
-/** Shared renderer for the six /resources/* article pages. */
+/** Shared renderer for the /resources/* article pages. */
 export default function ArticlePage({
   locale,
   content,

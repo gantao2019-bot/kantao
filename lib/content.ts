@@ -1247,6 +1247,130 @@ export const articles: Record<string, Record<Locale, ArticleContent>> = {
       "questionsTitle": "",
       "questions": []
     }
+  },
+  // Added manually 2026-11-26: daily article 1 (approved draft), not part of
+  // the live-site transcription. Draft text used as-is in each locale.
+  "resources/agentic-ai-in-orbit": {
+    "zh-hk": {
+      "category": "觀點",
+      "title": "人工智能上軌道：10億美元AI衛星星座，改變了什麼？",
+      "intro": "11月25日，在巴黎國際太空峰會上，Loft Orbital 與 Marlan Space 宣布一項 10 億美元計劃，要建造合作方口中的全球最大人工智能衛星基礎設施，由法國總統馬克龍宣布。計劃把已驗證的 10 顆衛星示範，擴大為 50 顆衛星的星座。對買賣或使用對地觀測數據的人來說，這是今年最重要的一則衛星消息。重要的不只是金額，而是架構背後的轉變：智能正從地面站搬上軌道。",
+      "date": "2026-11-26",
+      "readTime": "5 分鐘",
+      "audienceLabel": "適合讀者",
+      "audience": "買賣或使用對地觀測數據的團隊。",
+      "boundaryLabel": "聲明",
+      "boundary": "本文僅作一般資訊參考，整理自 2026年11月25日公開宣布的內容，不構成投資、法律或技術意見。計劃細節、時間表與能力以相關方公布為準，並可能有所調整。",
+      "sections": [
+        {
+          "n": "01",
+          "heading": "宣布了什麼",
+          "kind": "p",
+          "text": "星座將搭載雷達、光學及其他感測器，服務法國、歐洲及阿聯酋的政府用戶，以及全球商業客戶。衛星由 Marlan Space 與 Loft Orbital 的合資公司 Orbitworks 在阿布扎比生產。設計有三個關鍵。第一，衛星在軌道上直接分析觀測結果，數秒內傳回——傳統做法是影像下載回地面、處理後再交付，中間要等幾小時。第二，服務以 AI 應用商店形式提供：客戶選用所需的模型，在共享衛星上運行。第三，模型來自 Mistral，提供星上推理與自然語言任務能力；BlackSky 提供高解像度光學衛星。首批應用包括海域監控、山火探測、災害應對，以及港口與關鍵基礎設施安全。Loft Orbital 已有逾 100 個載荷與 20 次 AI 任務在軌的紀錄，包括與美國太空總署噴射推進實驗室（NASA JPL）合作、在衛星上運行視覺語言模型的示範。其行政總裁表示，首批衛星將在未來數週內發射。",
+          "items": []
+        },
+        {
+          "n": "02",
+          "heading": "轉變：從「先下載、後處理」到「在軌道上判斷」",
+          "kind": "p",
+          "text": "對地觀測的工作流程多年不變：衛星收集、地面站下載、地面電腦處理、用戶等待。從觀測到答案，中間隔著幾小時；目標多雲、偏遠或在夜間，時間更長。星上 AI 在兩個環節打破這個流程：它先判斷什麼值得拍，再判斷拍到的東西是什麼意思，然後才把結果傳下來。NASA JPL 本月已在軌道上驗證了前半部分：其 Dynamic Targeting 系統在 CogniSAT-6 立方衛星上測試，由星上 AI 識別雲層、動態重新規劃拍攝，優先拍攝無雲的畫面，全程無人干預。Marlan 與 Loft 的星座，則是要把兩個環節都規模化——觀測、解譯、數秒內傳回結果。對發表會上點名的應用來說，這個時間差本身就是產品。山火早幾秒發現，應對就不同；港口安全事件在衛星仍在頭頂時已完成評估，決策就不同；水浸與災損評估當天送達，保險理賠的分流方式就不同。",
+          "items": []
+        },
+        {
+          "n": "03",
+          "heading": "對衛星數據買家意味著什麼",
+          "kind": "p",
+          "text": "實際影響有三點。第一，延遲從副產品變成產品規格。以往買家比較影像，看覆蓋、看新鮮程度、看價格，延遲被當作理所當然。星上處理之後，從觀測到可用答案的時間，本身成為一項規格——將來會被定價、被比較、被寫進合約。第二，任務指令變得易講，卻更難講準。自然語言任務降低了指揮衛星的門檻，但沒有免除把問題問準的需要。「看著這個港口」不是規格；範圍、要偵測的變化、頻率、可接受的誤報率，仍然要定義清楚。技術門檻從操作衛星，轉移到如何把問題問好。第三，採購走向應用商店，但證據不會消失。從商店選模型，比委託定制分析簡單。但底下的需要沒有變：標準化的觀測、可對照的時序、可以核查的方法。答案再快，底層觀測不可信也沒有用。對保險、金融與基建用戶來說，警報不是證據；影像、方法與可追溯的紀錄，才是決策站得住腳的依據。這一點，對今天買數據的團隊最重要。星座尚未升空——首批 10 顆衛星正在生產，發射在後。而它底下的數據層——經過校準的影像、同一地點長期重複觀測、經 API 接入現有工作流程——是任何 AI 系統（無論在軌道上還是在地面）都依賴的，也是今天就能買到、用到的東西。",
+          "items": []
+        },
+        {
+          "n": "04",
+          "heading": "香港與亞太怎麼看",
+          "kind": "p",
+          "text": "計劃的地理布局值得留意。這是阿聯酋與法國的軸線，在阿布扎比建造，先服務歐洲與海灣的政府用戶，再面向全球商業客戶。對香港與亞太的團隊來說，眼前的意義不是等星座升空，而是為採購方式的改變做準備：用日常語言下達任務、從目錄中選模型、答案以秒而不是小時計。實際做法與以往一樣：先從一個定義清楚的小問題開始，在試點範圍內驗證證據質素，證明了再擴大。技術走得快，核查的紀律不應跟著變快。",
+          "items": []
+        },
+        {
+          "n": "05",
+          "heading": "KANTAO",
+          "kind": "p",
+          "text": "KANTAO 立足香港，為亞太及海外團隊提供標準化衛星影像、時序對地觀測數據集與 API 接入。我們的衛星 AI 訂閱（Asset Monitor）正在籌備中，現正招募試點合作夥伴。我們的做法是試點先行：先在小範圍確認證據質素，再擴大使用。",
+          "items": []
+        },
+        {
+          "n": "06",
+          "heading": "資料來源",
+          "kind": "list",
+          "text": "",
+          "items": [
+            "Loft Orbital / Marlan Space 公布，GroundStation，2026年11月25日：https://www.groundstation.space/industry/worlds-largest-ai-infrastructure-in-space-announced-by-the-president-of-the-french-republic-marlan-space-and-loft-orbital-join-forces-with-mistral-and-global-space-industry-leaders-to-build-the-fut/",
+            "NASA JPL Dynamic Targeting 軌道測試，見 SpaceNews SpaceNext AI 通訊，2026年11月25日"
+          ]
+        }
+      ],
+      "questionsTitle": "",
+      "questions": []
+    },
+    "en": {
+      "category": "Perspective",
+      "title": "Agentic AI in Orbit: The $1 Billion Constellation, and What It Changes",
+      "intro": "On 25 November, at the International Space Summit in Paris, Loft Orbital and Marlan Space announced a $1 billion programme to build what the partners describe as the world's largest artificial intelligence satellite infrastructure. The announcement was made by French President Emmanuel Macron. The plan funds the jump from a proven ten-satellite demonstration to a fifty-satellite fleet. It is the most consequential satellite announcement of the year for anyone who buys, sells or builds on Earth observation data — not because of the money alone, but because the architecture implies intelligence moving from the ground station into orbit.",
+      "date": "2026-11-26",
+      "readTime": "5 min read",
+      "audienceLabel": "Audience",
+      "audience": "Teams that buy, sell or build on Earth observation data.",
+      "boundaryLabel": "Disclaimer",
+      "boundary": "This article is for general information only. It summarises public announcements as reported on 25 November 2026 and does not constitute investment, legal or technical advice. Programme details, timelines and capabilities are as announced by the parties involved and may change.",
+      "sections": [
+        {
+          "n": "01",
+          "heading": "What was announced",
+          "kind": "p",
+          "text": "The constellation will carry radar, optical and other sensors for government users in France, Europe and the UAE, alongside global commercial customers. The satellites are produced by Orbitworks, the Marlan–Loft joint venture, in Abu Dhabi. Three features define the design. First, the satellites analyse what they observe while still in orbit and transmit results in seconds — unlike conventional systems, which deliver imagery hours after download and ground processing. Second, services run through an AI application store: customers select the models they need and run them on shared satellites. Third, the models come from Mistral, which provides onboard reasoning and natural-language tasking; BlackSky supplies the high-resolution optical satellites. The first applications are maritime domain awareness, wildfire detection, disaster response, and security of ports and critical infrastructure. Loft Orbital cites more than 100 payloads and 20 AI missions in orbit, including a demonstration with NASA's Jet Propulsion Laboratory of a satellite running a vision-language model onboard. Its chief executive said the first satellites would launch \"in the coming weeks\".",
+          "items": []
+        },
+        {
+          "n": "02",
+          "heading": "The shift: from download-then-process to decide-in-orbit",
+          "kind": "p",
+          "text": "For most of the history of Earth observation, the workflow has been fixed: the satellite collects, the ground station downloads, computers on Earth process, and the user waits. Hours pass between observation and answer — longer when the target is cloudy, remote, or observed at night. Onboard AI breaks that sequence in two places. It decides what is worth capturing, and it decides what the capture means, before anything is downloaded. NASA's Jet Propulsion Laboratory demonstrated the first half in orbit this month: its Dynamic Targeting system aboard the CogniSAT-6 CubeSat uses onboard AI to identify clouds and replan imaging to prioritise clear-sky views, without human input. The Marlan–Loft constellation is built to do both halves at scale. For wildfire, port security and disaster response, that time difference is itself the product.",
+          "items": []
+        },
+        {
+          "n": "03",
+          "heading": "What it means for buyers of satellite data",
+          "kind": "p",
+          "text": "Three practical consequences follow. Latency becomes a product feature, not a by-product. Buyers have long compared imagery on coverage, freshness and price, accepting delay as a fact of life. Onboard processing makes the time between observation and usable answer a specification in its own right — one that will increasingly be priced, compared and contracted. Tasking gets easier to express, harder to get right. Natural-language tasking lowers the barrier to telling a satellite what to look for, but not the need to ask a well-posed question. \"Watch this port\" is not a specification; the area, the change that matters, the frequency and the acceptable false-alarm rate still have to be defined. The skill shifts from operating the satellite to framing the problem. Procurement moves toward the app store — but evidence does not go away. A model store is simpler than a bespoke analysis, but what does not change is the need underneath it: a standardised observation, a time series to compare against, and a method that can be checked. A faster answer is only useful if the underlying observation is trustworthy. For insurance, finance and infrastructure users, an alert is not evidence; the image, the method and the audit trail are what a decision can stand on. That is the part that matters most for teams buying data today. The constellation is not yet in orbit — the first ten satellites are in production, with launches to follow. The data layer underneath it — calibrated imagery, repeated observations of the same place over time, delivery through an API into existing workflows — is what any AI system, onboard or on the ground, depends on. It is also what can be bought and used now.",
+          "items": []
+        },
+        {
+          "n": "04",
+          "heading": "A Hong Kong and Asia-Pacific read",
+          "kind": "p",
+          "text": "The programme's geography is worth noting: a UAE–France axis, built in Abu Dhabi, serving European and Gulf government users first and commercial customers globally. For teams in Hong Kong and Asia-Pacific, the near-term implication is not to wait for the fleet, but to prepare for how it will change procurement: tasking in plain language, model selection from a catalogue, and answers measured in seconds rather than hours.",
+          "items": []
+        },
+        {
+          "n": "05",
+          "heading": "KANTAO",
+          "kind": "p",
+          "text": "KANTAO supplies standardised satellite imagery, time-series Earth observation datasets and API access from Hong Kong. Our Satellite AI subscription (Asset Monitor) is in preparation, and we are seeking pilot partners — pilot-first, as always: confirm the evidence on a small area, then scale.",
+          "items": []
+        },
+        {
+          "n": "06",
+          "heading": "Sources",
+          "kind": "list",
+          "text": "",
+          "items": [
+            "Loft Orbital / Marlan Space announcement, GroundStation, 25 November 2026: https://www.groundstation.space/industry/worlds-largest-ai-infrastructure-in-space-announced-by-the-president-of-the-french-republic-marlan-space-and-loft-orbital-join-forces-with-mistral-and-global-space-industry-leaders-to-build-the-fut/",
+            "NASA JPL Dynamic Targeting on-orbit test, via SpaceNews SpaceNext AI newsletter, 25 November 2026"
+          ]
+        }
+      ],
+      "questionsTitle": "",
+      "questions": []
+    }
   }
 };
 
@@ -2373,6 +2497,15 @@ export const resourcesIndex: Record<Locale, IndexContent> = {
     "intro": "透過示範案例、白皮書、FAQ、樣本報告及方法論，評估您的關注區域、更新需求、驗證方法與交付邊界，為試點及採購準備可核查的問題。",
     "items": [
       {
+        "type": "觀點",
+        "date": "2026-11-26",
+        "readTime": "5 分鐘",
+        "category": "衛星行業觀點",
+        "title": "人工智能上軌道：10億美元AI衛星星座，改變了什麼？",
+        "desc": "11月25日，在巴黎國際太空峰會上，Loft Orbital 與 Marlan Space 宣布一項 10 億美元計劃，要建造合作方口中的全球最大人工智能衛星基礎設施，由法國總統馬克龍宣布。計劃把已驗證的 10 顆衛星示範，擴大為 50 顆衛星的星座。",
+        "href": "resources/agentic-ai-in-orbit"
+      },
+      {
         "type": "示範案例",
         "date": "2026-06-12",
         "readTime": "5 分鐘",
@@ -2433,6 +2566,15 @@ export const resourcesIndex: Record<Locale, IndexContent> = {
     "title": "Check the data fit. Assess the delivery value.",
     "intro": "Use illustrative cases, white papers, FAQs, sample reports and methodology to assess your area of interest, update needs, validation approach and delivery boundaries before a pilot or procurement decision.",
     "items": [
+      {
+        "type": "Perspective",
+        "date": "2026-11-26",
+        "readTime": "5 min read",
+        "category": "Satellite industry perspective",
+        "title": "Agentic AI in Orbit: The $1 Billion Constellation, and What It Changes",
+        "desc": "On 25 November, at the International Space Summit in Paris, Loft Orbital and Marlan Space announced a $1 billion programme to build what the partners describe as the world's largest artificial intelligence satellite infrastructure.",
+        "href": "resources/agentic-ai-in-orbit"
+      },
       {
         "type": "Illustrative case",
         "date": "2026-06-12",

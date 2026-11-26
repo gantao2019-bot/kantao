@@ -206,6 +206,16 @@ export const pageMeta: Record<string, Record<Locale, { title: string; descriptio
       "description": "A demonstration of how KANTAO uses SAR imagery after cloudy and rainy events to deliver affected-area maps, exposed asset lists and claims-priority signals."
     }
   },
+  "resources/agentic-ai-in-orbit": {
+    "zh-hk": {
+      "title": "人工智能上軌道：10億美元AI衛星星座 | KANTAO",
+      "description": "Marlan Space 與 Loft Orbital 在巴黎宣布 10 億美元、50 顆衛星的 AI 星座：智能搬上軌道之後，衛星數據買家該關注什麼，又有什麼不會變。"
+    },
+    "en": {
+      "title": "Agentic AI in Orbit: The $1B Satellite Fleet | KANTAO",
+      "description": "Marlan Space and Loft Orbital unveiled a $1B, 50-satellite AI constellation in Paris. What onboard intelligence changes for data buyers — and what it does not."
+    }
+  },
   "ai-facts": {
     "zh-hk": {
       "title": "KANTAO 官方事實 | KANTAO",
