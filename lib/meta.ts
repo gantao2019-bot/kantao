@@ -226,6 +226,16 @@ export const pageMeta: Record<string, Record<Locale, { title: string; descriptio
       "description": "Synspective's 14th StriX radar satellite launches 27 Nov on Rocket Lab's Electron. What Japan's radar build-out means for insurers and infrastructure buyers."
     }
   },
+  "resources/yaogan-49-01-remote-sensing-group": {
+    "zh-hk": {
+      "title": "遙感四十九號升空：中國遙感網再擴容 | KANTAO",
+      "description": "遙感四十九號01組衛星11月26日自西昌升空。中國國家遙感能力穩步擴容，對衛星數據買家意味著什麼。"
+    },
+    "en": {
+      "title": "Yaogan-49-01: China's Remote-Sensing Build-Out | KANTAO",
+      "description": "China's Yaogan-49-01 remote-sensing group launched 26 Nov from Xichang. What the steady build-out of state Earth-observation capacity means for data buyers."
+    }
+  },
   "ai-facts": {
     "zh-hk": {
       "title": "KANTAO 官方事實 | KANTAO",

@@ -1513,7 +1513,131 @@ export const articles: Record<string, Record<Locale, ArticleContent>> = {
       "questionsTitle": "",
       "questions": []
     }
-  }
+  },
+  "resources/yaogan-49-01-remote-sensing-group": {
+    "zh-hk": {
+      "category": "觀點",
+      "title": "遙感四十九號升空：中國遙感網再擴容",
+      "intro": "11月26日17時38分，一枚長征二號丁運載火箭自四川西昌衛星發射中心3號工位升空，將遙感四十九號01組衛星送入預定軌道。新華社當晚報道了這次發射。",
+      "date": "2026-11-27",
+      "readTime": "5 分鐘",
+      "audienceLabel": "適合讀者",
+      "audience": "買賣或使用對地觀測數據的團隊。",
+      "boundaryLabel": "聲明",
+      "boundary": "本文僅作一般資訊參考，內容根據截至2026年11月27日的公開報道與公告整理，不構成投資、法律或技術建議。發射細節、星座計劃與能力以相關方公布為準，並可能變更。遙感四十九號01組的衛星數量與傳感器類型尚未公開。",
+      "sections": [
+        {
+          "n": "01",
+          "heading": "這次發射了什麼",
+          "kind": "p",
+          "text": "這是長征系列火箭第681次飛行、長征二號丁第109次飛行，也是中國2026年的第85次發射。數字本身不如數字背後的規律重要：中國的國家遙感能力正以一組接一組的方式穩步擴容，發射節奏已經成為常態。遙感四十九號01組是新一代遙感系列的首組衛星，由中國空間技術研究院研製。官方公布的任務是國土資源普查、防災減災、農作物估產和科學試驗。衛星數量與傳感器類型均未公布。本次使用的加長整流罩約13.4米，理論上可容納三顆衛星——此前多個遙感三顆星組合同樣採用這一構型；未來幾天地基望遠鏡的觀測將確認實際部署數量。信息披露的克制本身就是信息。遙感系列屬於國家運行體系，其數據不對外商業化，也沒有公開的分辨率、重訪周期或價格。從這次發射能讀出的，是方向，不是規格表。",
+          "items": []
+        },
+        {
+          "n": "02",
+          "heading": "不是單次發射，是一輪擴容",
+          "kind": "p",
+          "text": "遙感四十九號01組是近期一連串發射中的最新一組。本月早些時候，遙感五十一號首組三顆星已經升空；9月與10月，遙感五十三號與五十六號兩個系列共計12顆衛星先後入軌。各組衛星接連上天，顯示這是一個分批組裝的系統，而非一次性宣布的單一計劃。這次發射還傳遞了一個關於可靠性的低調信號。火箭研製方上海航天技術研究院及其商業化機構中國航天科技集團商業火箭有限公司表示，西昌的質量控制流程已經得到精簡——這是自9月起針對國有運載火箭質量問題開展的整改的一部分。一年發射85次的計劃，無法把質量當作事後補救的事；公開強調流程紀律，是在發射節奏持續加快的背景下值得留意的信號。",
+          "items": []
+        },
+        {
+          "n": "03",
+          "heading": "對衛星數據買家意味著什麼",
+          "kind": "p",
+          "text": "遙感四十九號01組對商業數據買家的直接影響有限：這是國家能力，不是新的商業成像選項。間接影響才是關鍵，分三個方向。觀測密度正在所有軌道上提升。昨天的故事是商業的——Synspective第14顆StriX雷達衛星搭乘Rocket Lab的Electron升空；今天的故事是國家的。兩條軌道在所有權、獲取方式和價格上各不相同，但指向同一方向：更多衛星、更頻繁地觀測同一片地面。對於任何需要建立時間序列的人——地面沉降、洪水範圍、作物長勢、土地利用變化——原始材料正從兩邊同時變得更密。防災與農業是官方點名的優先用途，也是最容易跨界的應用。國土資源普查、防災減災、農作物估產，正是衛星數據公共價值最清晰的場景：水還在漲的時候就給出洪水範圍、收穫前就給出產量估算、土地利用變化在變成糾紛之前就被發現。國家系統先為自己的機構生產這類衍生信息；商業運營商則為保險公司、銀行和基建業主提供同類服務。數據不共享，需求是共通的。證據標準由最密的記錄決定，而不是由最新的衛星決定。新的一組衛星是為既有記錄增加觀測點。它的價值體現在時間序列裡——同一個地方被反覆觀測，變化可以被測量，而不是被假設。這與商業雷達與光學數據遵循的是同一條紀律：基線、可重複的方法、可驗證的結果。衛星越多，記錄越密；但方法本身不會被取代。",
+          "items": []
+        },
+        {
+          "n": "04",
+          "heading": "香港與亞太視角",
+          "kind": "p",
+          "text": "對香港與亞太地區的團隊而言，相關性是實際的，而非直接的。颱風季的洪水製圖、區域農業供應鏈監測、大灣區的土地利用變化檢測，都依賴觀測密度——而這種密度正在國家與商業兩條軌道上同時提升。遙感系列不是香港保險公司或銀行可以直接購買的產品，但它是同一幅供應圖景的一部分：這片區域的地面，正被比以往任何時候都更多的系統、更頻繁地觀測。發射節奏本身也值得留意。單年85次發射、遙感組衛星分批入軌，既是關於航天的表態，也是關於工業能力的表態。對地球觀測數據的買家而言，實際的問題不是誰擁有最新的衛星，而是自己關心的地方的觀測記錄是否變得更密、更頻繁、更可驗證。就這一點而言，本週——週三一顆商業雷達衛星，週四一組國家遙感衛星——指向的是同一個方向。",
+          "items": []
+        },
+        {
+          "n": "05",
+          "heading": "KANTAO",
+          "kind": "p",
+          "text": "KANTAO 自香港提供標準化衛星影像、時間序列地球觀測數據集與 API 接入。我們的衛星 AI 訂閱服務（Asset Monitor）正在籌備中，現正招募試點合作夥伴——一如既往，先試點：先在小範圍確認證據，再擴大規模。",
+          "items": []
+        },
+        {
+          "n": "06",
+          "heading": "來源",
+          "kind": "list",
+          "text": "",
+          "items": [
+            "新華社：中國發射新遙感衛星組，2026年11月26日：https://english.news.cn/20261126/19ac970b82b84f9096e816789cf83263/c.html",
+            "China in Space：New Yaogan Group Enters Orbit From Xichang [Long March 2D Y113]，2026年11月26日：https://www.china-in-space.com/p/new-yaogan-group-enters-orbit-from",
+            "CGTN：China sends Yaogan-49 remote sensing satellite into orbit，2026年11月26日：https://news.cgtn.com/news/2026-11-26/China-sends-Yaogan-49-remote-sensing-satellite-into-orbit-1SojRUFVHFu/p.html"
+          ]
+        }
+      ],
+      "questionsTitle": "",
+      "questions": []
+    },
+    "en": {
+      "category": "Perspective",
+      "title": "Yaogan-49-01: China's Remote-Sensing Build-Out Continues",
+      "intro": "On 26 November at 17:38 Beijing time, a Long March 2D rocket lifted off from Launch Complex 3 at the Xichang Satellite Launch Center in Sichuan, carrying the first satellites of a new remote-sensing group, Yaogan-49-01 (遥感四十九号01组卫星). The group entered its preset orbit, Xinhua reported the same evening.",
+      "date": "2026-11-27",
+      "readTime": "5 min read",
+      "audienceLabel": "Audience",
+      "audience": "Teams that buy, sell or build on Earth observation data.",
+      "boundaryLabel": "Disclaimer",
+      "boundary": "This article is for general information only. It summarises public announcements and reporting as of 27 November 2026 and does not constitute investment, legal or technical advice. Launch details, constellation plans and capabilities are as announced by the parties involved and may change. The number of satellites in the Yaogan-49-01 group and their sensor types were not disclosed.",
+      "sections": [
+        {
+          "n": "01",
+          "heading": "What launched",
+          "kind": "p",
+          "text": "It was the 681st flight of the Long March series, the 109th for the Long March 2D, and the 85th launch from China in 2026. The numbers matter less than the pattern behind them: China's state remote-sensing capacity is being built out group by group, at a pace that has become routine. Yaogan-49-01 is the first group of a new Yaogan series, built by the China Academy of Space Technology. The stated tasks are land and resources surveys, disaster prevention and mitigation planning, agricultural yield estimation, and scientific experiments. The number of satellites in the group was not disclosed, and neither was the sensor type. The long fairing used for the launch — about 13.4 metres — could accommodate three satellites, a configuration used for earlier Yaogan trios; ground-based telescope observations in the coming days are expected to confirm how many were deployed. That restraint in disclosure is itself informative. Yaogan groups are government-operated. Their data is not commercially taskable, and no resolution, revisit interval or pricing is published. What can be read from the launch is the direction of travel, not the specification sheet.",
+          "items": []
+        },
+        {
+          "n": "02",
+          "heading": "A build-out, not a one-off",
+          "kind": "p",
+          "text": "Yaogan-49-01 is the latest in a sequence. The first trio of Yaogan-51 launched earlier this month, and twelve satellites across the Yaogan-53 and Yaogan-56 groups went up in September and October. The groups arrive in quick succession, each adding observation capacity to a system that is plainly being assembled in tranches rather than announced as a single programme. The launch also carried a quieter message about reliability. The builder, the Shanghai Academy of Spaceflight Technology, and its commercial arm, the China Aerospace Science and Technology Commercial Launch Vehicle Group, said quality-control efforts at Xichang have been streamlined — part of a corrective effort across state launch vehicles that began in September. A programme launching 85 times a year cannot afford to treat quality as an afterthought; the public emphasis on process discipline is a signal to watch as the tempo continues.",
+          "items": []
+        },
+        {
+          "n": "03",
+          "heading": "Why it matters for buyers of satellite data",
+          "kind": "p",
+          "text": "The direct effect of Yaogan-49-01 on a commercial data buyer is limited: this is state capacity, not a new tasking option. The indirect effect is the one that matters, and it runs in three directions. Observation density is rising on every track. Yesterday's story was a commercial one — Synspective's 14th StriX radar satellite, launched on Rocket Lab's Electron. Today's is a state one. The two tracks are different in ownership, access and price, but they point the same way: more satellites looking at the same ground, more often. For anyone building a time series — ground movement, flood extent, crop condition, land-use change — the raw material is getting denser from both sides. Disaster and agriculture are the stated priorities, and they are the use cases that travel. Land and resources surveys, disaster prevention and agricultural yield estimation are the applications named for Yaogan-49-01. They are also the applications where satellite data has the clearest public value: a flood footprint produced while the water is still rising, a crop estimate before harvest, a land-use change detected before it becomes a dispute. State systems produce this kind of derived information first for their own agencies; commercial operators then serve the same needs for insurers, lenders and infrastructure owners. The demand is shared even where the data is not. The evidence standard is set by the densest record, not the newest satellite. A new group adds observations to an existing record. Its value shows up in the time series — the same place observed again and again, so that change can be measured rather than assumed. That is the same discipline that governs commercial radar and optical data: a baseline, a repeatable method, and a result that can be checked. More satellites make the record denser; they do not replace the method.",
+          "items": []
+        },
+        {
+          "n": "04",
+          "heading": "A Hong Kong and Asia-Pacific read",
+          "kind": "p",
+          "text": "For Hong Kong and Asia-Pacific teams, the relevance is practical rather than direct. Typhoon-season flood mapping, agricultural supply-chain monitoring across the region, and land-use change detection in the Greater Bay Area all depend on observation density — and that density is rising on both the state and commercial tracks. The Yaogan groups are not a product a Hong Kong insurer or bank can buy, but they are part of the same supply picture: the region's ground is being observed more often, by more systems, than at any point before. The launch tempo itself is worth noting. Eighty-five launches from China in a single year, with remote-sensing groups arriving in tranches, is a statement about industrial capacity as much as about space. For buyers of Earth-observation data, the practical question is not who owns the newest satellite. It is whether the observation record for the places they care about is getting denser, more frequent and more checkable. On that measure, this week — a commercial radar satellite on Wednesday, a state remote-sensing group on Thursday — points in one direction.",
+          "items": []
+        },
+        {
+          "n": "05",
+          "heading": "KANTAO",
+          "kind": "p",
+          "text": "KANTAO supplies standardised satellite imagery, time-series Earth observation datasets and API access from Hong Kong. Our Satellite AI subscription (Asset Monitor) is in preparation, and we are seeking pilot partners — pilot-first, as always: confirm the evidence on a small area, then scale.",
+          "items": []
+        },
+        {
+          "n": "06",
+          "heading": "Sources",
+          "kind": "list",
+          "text": "",
+          "items": [
+            "China launches new remote sensing satellite group, Xinhua, 26 November 2026: https://english.news.cn/20261126/19ac970b82b84f9096e816789cf83263/c.html",
+            "New Yaogan Group Enters Orbit From Xichang [Long March 2D Y113], China in Space, 26 November 2026: https://www.china-in-space.com/p/new-yaogan-group-enters-orbit-from",
+            "China sends Yaogan-49 remote sensing satellite into orbit, CGTN, 26 November 2026: https://news.cgtn.com/news/2026-11-26/China-sends-Yaogan-49-remote-sensing-satellite-into-orbit-1SojRUFVHFu/p.html"
+          ]
+        }
+      ],
+      "questionsTitle": "",
+      "questions": []
+    }
+  },
 };
 
 export const legal: Record<string, Record<Locale, LegalContent>> = {
@@ -2640,6 +2764,15 @@ export const resourcesIndex: Record<Locale, IndexContent> = {
     "items": [
       {
         "type": "觀點",
+        "date": "2026-11-27",
+        "readTime": "5 分鐘",
+        "category": "衛星行業觀點",
+        "title": "遙感四十九號升空：中國遙感網再擴容",
+        "desc": "11月26日17時38分，一枚長征二號丁運載火箭自四川西昌衛星發射中心3號工位升空，將遙感四十九號01組衛星送入預定軌道。中國國家遙感能力穩步擴容，對衛星數據買家意味著什麼。",
+        "href": "resources/yaogan-49-01-remote-sensing-group"
+      },
+      {
+        "type": "觀點",
         "date": "2026-11-26",
         "readTime": "5 分鐘",
         "category": "衛星行業觀點",
@@ -2717,6 +2850,15 @@ export const resourcesIndex: Record<Locale, IndexContent> = {
     "title": "Check the data fit. Assess the delivery value.",
     "intro": "Use illustrative cases, white papers, FAQs, sample reports and methodology to assess your area of interest, update needs, validation approach and delivery boundaries before a pilot or procurement decision.",
     "items": [
+      {
+        "type": "Perspective",
+        "date": "2026-11-27",
+        "readTime": "5 min read",
+        "category": "Satellite industry perspective",
+        "title": "Yaogan-49-01: China's Remote-Sensing Build-Out Continues",
+        "desc": "On 26 November at 17:38 Beijing time, a Long March 2D rocket lifted off from Xichang Satellite Launch Center, carrying the first satellites of the new Yaogan-49-01 remote-sensing group. What the steady build-out of state Earth-observation capacity means for data buyers.",
+        "href": "resources/yaogan-49-01-remote-sensing-group"
+      },
       {
         "type": "Perspective",
         "date": "2026-11-26",
