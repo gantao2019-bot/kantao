@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import type { Locale } from "./content";
 
+/** Public site origin (same value as BASE_URL in app/sitemap.ts). */
+export const SITE_URL = "https://www.kantao.space";
+
 /** Resolve the active locale from a route param (unknown values fall back to zh-hk). */
 export function toLocale(locale: string): Locale {
   return locale === "en" ? "en" : "zh-hk";
