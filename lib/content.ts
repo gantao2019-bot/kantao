@@ -1638,6 +1638,144 @@ export const articles: Record<string, Record<Locale, ArticleContent>> = {
       "questions": []
     }
   },
+  "resources/adaspace-in-orbit-ai-training": {
+    "zh-hk": {
+      "category": "觀點",
+      "title": "太空算力上軌：大模型在天上訓練",
+      "intro": "11 月 26 日，國星宇航 Adaspace（06935.HK）公布了「星算」計劃第二組 AI 算力星座的首批第三方在軌測試結果。測試由中國信息通信研究院（信通院）執行，該院隸屬工信部。公司稱，這批結果創下了太空計算的三項世界紀錄。",
+      "date": "2026-11-28",
+      "readTime": "5 分鐘",
+      "audienceLabel": "適合讀者",
+      "audience": "買賣或使用對地觀測數據的團隊。",
+      "boundaryLabel": "聲明",
+      "boundary": "本文僅供一般資訊參考，內容根據截至 2026 年 11 月 28 日的公開公告與報道整理，不構成投資、法律或技術建議。測試結果、星座計劃與相關能力以有關各方公布為準，或會更改。「世界紀錄」的說法引述國星宇航及信通院測試數據，相關數字尚未有公開的獨立覆核。",
+      "sections": [
+        {
+          "n": "01",
+          "heading": "公布了什麼",
+          "kind": "p",
+          "text": "最搶眼的是單星算力數字。第二組星座中的「天秤」星，標稱算力為 32 PFLOPS（FP8 精度）。按公開資料比較，這是目前在軌單顆衛星的最高算力。整個「星算」計劃的在軌算力總量，公司稱現已達到約 50 POPS。但比數字更重要的是這顆星實際做了什麼。天秤星完成了阿里巴巴通義千問 Qwen3-32B 大模型在軌全參數訓練與推理的驗證——公司稱，這是迄今在太空完成全參數訓練的最大模型。它還在單圈軌道內，連續完成了 45 分 33 秒的全參數訓練，訓練損失穩步下降，前向傳播、反向傳播、梯度與權重更新的完整迴圈，全程在星上完成。",
+          "items": []
+        },
+        {
+          "n": "02",
+          "heading": "在軌訓練難在哪裡",
+          "kind": "p",
+          "text": "訓練和推理是兩回事。推理只是一次前向計算；訓練是一個必須連續運行的迴圈，期間衛星的供電與散熱系統要全程保持穩定。這正是信通院公布的第三項結果的意義所在：萬瓦級液冷流體迴路系統與超大可展開輻射散熱翼在軌工作正常，滿足了 10 kW 級算力載荷連續運行的熱控要求。公司在通稿中對比了 Google 早期的在軌張量處理器（TPU）原型：據稱該原型單次只能以滿功率連續運行約 15 分鐘。天秤星 45 分鐘的連續訓練，大約是其三倍。太空計算真正的瓶頸從來不是算力本身，而是散熱——一次 45 分鐘的持續運行證明，這個瓶頸至少在單圈軌道內是可以靠工程解決的。這組星座於 10 月 14 日在酒泉衛星發射中心升空。這次公布的是首批測試結果，驗證依據是信通院的實測數據，而非公司自己的說法。",
+          "items": []
+        },
+        {
+          "n": "03",
+          "heading": "對遙感數據買家意味著什麼",
+          "kind": "p",
+          "text": "對衛星數據買家而言，直接影響並不會立即出現。這次沒有發布新的影像產品，通稿中也沒有提到任何商用遙感服務。影響走的是另一條路：衛星數據如何變成可用資訊的架構正在改變。今天，大多數衛星影像是以下傳原始數據、地面處理的模式運作。瓶頸在下傳鏈路：衛星每次飛越地面站只有幾分鐘，數據只能等。如果算力搬上軌道，工作發生的地點就變了。模型可以在數據被採集的地方訓練、運行和更新，衛星傳回地面的可以是一個結果，而不是一幅原始影像：洪水範圍、受損屋頂數量、變化告警。需要跨越下傳鏈路的數據量下降了，從採集到可用結論的時間也縮短了。這是整個行業的方向，不只是一家公司的事。本欄本週早前介紹過 Loft Orbital 與 Marlan 的在軌 AI 星座；中國電信天翼雲旗下的 TeleAI 也已驗證在軌 AI 解碼，可將精簡的 token 流還原為高清視頻。公司不同，技術不同，方向一致：算力正在向數據被採集的地方移動。如果這個趨勢站得住腳，實際影響在於時間：災害應對、保險定損、基建監測，今天都要等下傳鏈路和地面處理流程。一顆能在傳輸前先處理所見內容的衛星，改變的是數據買家要問的問題——從「影像多快能拿到？」變成「答案多快能拿到？」",
+          "items": []
+        },
+        {
+          "n": "04",
+          "heading": "三點提醒",
+          "kind": "p",
+          "text": "紀錄旁邊也要放三點提醒。第一，單圈軌道內 45 分鐘的訓練是一次驗證，不是服務。多圈持續訓練與日常商用運行是更遠的步驟，通稿並未聲稱已經做到。第二，「世界紀錄」的說法建立在公開資料與信通院首批測試數據之上，相關數字尚未有公開的獨立覆核。第三，公司自己也提醒，「星算」計劃的實際進展可能因實施條件、技術發展、市場情況及相關審批而調整。紀錄是起點，不是交付時間表。",
+          "items": []
+        },
+        {
+          "n": "05",
+          "heading": "香港視角",
+          "kind": "p",
+          "text": "對香港讀者來說，還有第二個角度。國星宇航於 11 月 13 日在香港聯交所主板上市，自稱是首家公開上市的太空 AI 公司。太空算力的故事，現在也是香港交易所裡的一隻上市股票的故事，而這批測試結果是市場手上第一份可供評判的實測證據。投資者與數據買家要問的是同一個問題：測試結果能否轉化為商用服務與收入。值得留意的，是下一批信通院測試數據、具名的商業客戶，以及星座能否在第二組之後繼續擴大。單顆衛星訓練模型 45 分鐘，證明的是工程能力；星座服務付費客戶，證明的是商業模式。前者已經寫進紀錄，後者才是值得跟進的故事。",
+          "items": []
+        },
+        {
+          "n": "06",
+          "heading": "KANTAO",
+          "kind": "p",
+          "text": "KANTAO 自香港提供標準化衛星影像、時間序列地球觀測數據集及 API 接入。我們的衛星 AI 訂閱服務（Asset Monitor）正在籌備中，現正尋找試點合作夥伴——一如既往，先試點：先在小範圍確認證據，再擴大規模。",
+          "items": []
+        },
+        {
+          "n": "07",
+          "heading": "來源",
+          "kind": "list",
+          "text": "",
+          "items": [
+            "Adaspace Announces World's Most Powerful In-Orbit Computing Satellite, EQS Newswire, 2026 年 11 月 27 日：https://www.tradingview.com/news/eqs:bdde0fa80094b:0-adaspace-announces-world-s-most-powerful-in-orbit-computing-satellite/",
+            "CAICT Tests Confirm Adaspace's In-Orbit Training World Record, ACN Newswire via ScoopAsia, 2026 年 11 月 26 日：https://www.scoopasia.com/caict-tests-confirm-adaspaces-in-orbit-training-world-record-2/",
+            "Adaspace 02-group AI constellation hits about 50 POPS, trains Qwen3-32B on orbit, Brocker, 2026 年 11 月 27 日：https://www.brocker.org/adaspace-02-group-ai-compute-constellation-50-pops-qwen3-32b-on-orbit-training"
+          ]
+        }
+      ],
+      "questionsTitle": "",
+      "questions": []
+    },
+    "en": {
+      "category": "Perspective",
+      "title": "Adaspace Puts Large-Model Training in Orbit",
+      "intro": "On 26 November, Adaspace (06935.HK) published the first batch of third-party in-orbit test results for the second AI computing constellation of its Star-Compute Project. The tests were carried out by the China Academy of Information and Communications Technology (CAICT), a research institute under the Ministry of Industry and Information Technology, and the company says the results set three world records in space computing.",
+      "date": "2026-11-28",
+      "readTime": "5 min read",
+      "audienceLabel": "Audience",
+      "audience": "Teams that buy, sell or build on Earth observation data.",
+      "boundaryLabel": "Disclaimer",
+      "boundary": "This article is for general information only. It summarises public announcements and reporting as of 28 November 2026 and does not constitute investment, legal or technical advice. Test results, constellation plans and capabilities are as announced by the parties involved and may change. \"World record\" claims are as stated by Adaspace and CAICT test data; independent replication of the figures is not yet public.",
+      "sections": [
+        {
+          "n": "01",
+          "heading": "What was announced",
+          "kind": "p",
+          "text": "The headline figure is the computing power of a single satellite. The Libra satellite in the second constellation has a nominal computing power of 32 PFLOPS at FP8 precision — the highest of any individual satellite currently in orbit, based on publicly available information, according to the announcement. The constellation as a whole now totals about 50 POPS of on-orbit computing power, the company says. More consequential than the headline number is what the satellite did with it. Libra completed verification of full-parameter training and inference for Alibaba's Tongyi Qianwen Qwen3-32B large model in orbit — the largest model to undergo full-parameter training in space, the company says. It also completed a continuous full-parameter training run of 45 minutes and 33 seconds within a single orbit, with training loss declining steadily and the full loop — forward propagation, backpropagation, and gradient and weight updates — completed in orbit.",
+          "items": []
+        },
+        {
+          "n": "02",
+          "heading": "Why training in orbit is hard",
+          "kind": "p",
+          "text": "Training a model in orbit is a different problem from running one. Inference is a single forward pass; training is a loop that has to run uninterrupted, with the satellite's power and cooling systems holding steady the whole time. That is why the third result in the CAICT release matters as much as the first two: a 10,000-watt-level liquid-cooled fluid circuit and an ultra-large expandable radiant-cooling wing are operating normally in orbit, meeting the thermal-control requirements for continuous operation of a 10 kW-class computing payload. The comparison the company draws is with Google's earlier in-orbit tensor processing unit prototype, which the release says could run continuously at full power for about 15 minutes. Libra's 45-minute run is roughly three times that. Heat dissipation, not raw computing power, has been the binding constraint on space computing — and a 45-minute sustained run is evidence it can be engineered around, at least for a single orbit. The constellation itself launched on 14 October from the Jiuquan Satellite Launch Centre. The test results are the first batch, and CAICT's data — rather than the company's own claims — is the verification basis the announcement leads with.",
+          "items": []
+        },
+        {
+          "n": "03",
+          "heading": "What it means for Earth observation",
+          "kind": "p",
+          "text": "For buyers of satellite data, the direct effect is not immediate. No new imagery product was announced, and nothing in the release describes a commercial Earth-observation service. The effect runs through the architecture of how satellite data becomes usable information. Today, most satellite imagery is downlinked raw and processed on the ground, and the bottleneck is the downlink: a satellite passes over a ground station for minutes at a time, and the data waits. Moving computing into orbit changes where the work happens. If a model can be trained — and, by extension, run and updated — where the data is captured, then the satellite can send down a result instead of a raw image: a flood extent, a damaged roof count, a change alert. The volume that has to cross the downlink falls, and the time from capture to usable insight shortens. That is the direction of travel for the whole sector, not just Adaspace. Earlier this week, this column covered Loft Orbital and Marlan's on-orbit AI constellation; China Telecom's TeleAI has separately demonstrated in-orbit AI decoding that reconstructs high-definition video from compact token streams. The practical consequence, if the shift holds, is about time: disaster response, insurance loss assessment and infrastructure monitoring all currently wait on the downlink and the ground pipeline. A satellite that can process what it sees before it transmits changes the question a data buyer asks — from \"how fast can I get the image?\" to \"how fast can I get the answer?\"",
+          "items": []
+        },
+        {
+          "n": "04",
+          "heading": "The caveats",
+          "kind": "p",
+          "text": "Three cautions apply. First, a 45-minute training run inside a single orbit is a demonstration, not a service. Sustained multi-orbit training and routine commercial operation are further steps the release does not claim. Second, the \"world record\" claims rest on publicly available information and on CAICT's first batch of test data; independent replication of the figures is not yet public. Third, the company itself cautions that the Star-Compute programme's actual progress may be adjusted depending on implementation conditions, technology development, market conditions and relevant approvals. Records are a starting point, not a delivery schedule.",
+          "items": []
+        },
+        {
+          "n": "05",
+          "heading": "A Hong Kong read",
+          "kind": "p",
+          "text": "For Hong Kong readers, there is a second angle: Adaspace listed on the Main Board of the Hong Kong Stock Exchange on 13 November, describing itself as the first publicly listed space AI company. The space-computing story is now also a listed-equity story on Hong Kong's own exchange, and these test results are the first measured evidence the market has to judge it on. The question for investors and data buyers alike is whether test results convert into commercial services and revenue. Watch the next batches of CAICT test data, named commercial customers, and whether the constellation scales beyond the second group. One satellite training a model for 45 minutes proves the engineering; a constellation serving paying customers proves the business. The first is now on the record; the second is the story to follow.",
+          "items": []
+        },
+        {
+          "n": "06",
+          "heading": "KANTAO",
+          "kind": "p",
+          "text": "KANTAO supplies standardised satellite imagery, time-series Earth observation datasets and API access from Hong Kong. Our Satellite AI subscription (Asset Monitor) is in preparation, and we are seeking pilot partners — pilot-first, as always: confirm the evidence on a small area, then scale.",
+          "items": []
+        },
+        {
+          "n": "07",
+          "heading": "Sources",
+          "kind": "list",
+          "text": "",
+          "items": [
+            "Adaspace Announces World's Most Powerful In-Orbit Computing Satellite, EQS Newswire, 27 November 2026: https://www.tradingview.com/news/eqs:bdde0fa80094b:0-adaspace-announces-world-s-most-powerful-in-orbit-computing-satellite/",
+            "CAICT Tests Confirm Adaspace's In-Orbit Training World Record, ACN Newswire via ScoopAsia, 26 November 2026: https://www.scoopasia.com/caict-tests-confirm-adaspaces-in-orbit-training-world-record-2/",
+            "Adaspace 02-group AI constellation hits about 50 POPS, trains Qwen3-32B on orbit, Brocker, 27 November 2026: https://www.brocker.org/adaspace-02-group-ai-compute-constellation-50-pops-qwen3-32b-on-orbit-training"
+          ]
+        }
+      ],
+      "questionsTitle": "",
+      "questions": []
+    }
+  },
 };
 
 export const legal: Record<string, Record<Locale, LegalContent>> = {
@@ -2764,6 +2902,15 @@ export const resourcesIndex: Record<Locale, IndexContent> = {
     "items": [
       {
         "type": "觀點",
+        "date": "2026-11-28",
+        "readTime": "5 分鐘",
+        "category": "衛星行業觀點",
+        "title": "太空算力上軌：大模型在天上訓練",
+        "desc": "11 月 26 日，國星宇航 Adaspace（06935.HK）公布了「星算」計劃第二組 AI 算力星座的首批第三方在軌測試結果。測試由中國信息通信研究院（信通院）執行，該院隸屬工信部。公司稱，這批結果創下了太空計算的三項世界紀錄。",
+        "href": "resources/adaspace-in-orbit-ai-training"
+      },
+      {
+        "type": "觀點",
         "date": "2026-11-27",
         "readTime": "5 分鐘",
         "category": "衛星行業觀點",
@@ -2850,6 +2997,15 @@ export const resourcesIndex: Record<Locale, IndexContent> = {
     "title": "Check the data fit. Assess the delivery value.",
     "intro": "Use illustrative cases, white papers, FAQs, sample reports and methodology to assess your area of interest, update needs, validation approach and delivery boundaries before a pilot or procurement decision.",
     "items": [
+      {
+        "type": "Perspective",
+        "date": "2026-11-28",
+        "readTime": "5 min read",
+        "category": "Satellite industry perspective",
+        "title": "Adaspace Puts Large-Model Training in Orbit",
+        "desc": "On 26 November, Adaspace (06935.HK) published the first batch of third-party in-orbit test results for the second AI computing constellation of its Star-Compute Project. The tests were carried out by the China Academy of Information and Communications Technology (CAICT), a research institute under the Ministry of Industry and Information Technology, and the company says the results set three world records in space computing.",
+        "href": "resources/adaspace-in-orbit-ai-training"
+      },
       {
         "type": "Perspective",
         "date": "2026-11-27",

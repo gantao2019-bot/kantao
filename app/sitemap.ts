@@ -27,6 +27,7 @@ const PATHS = [
   "/resources/agentic-ai-in-orbit",
   "/resources/strix-14-night-owls-never-sleep",
   "/resources/yaogan-49-01-remote-sensing-group",
+  "/resources/adaspace-in-orbit-ai-training",
   "/ai-facts",
   "/contact",
   "/card/eason-lian",
@@ -40,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const path of PATHS) {
       entries.push({
         url: `${BASE_URL}/${locale}${path}`,
-        lastModified: new Date("2026-11-27"),
+        lastModified: new Date("2026-11-28"),
       });
     }
   }

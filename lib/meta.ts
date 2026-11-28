@@ -239,6 +239,16 @@ export const pageMeta: Record<string, Record<Locale, { title: string; descriptio
       "description": "China's Yaogan-49-01 remote-sensing group launched 26 Nov from Xichang. What the steady build-out of state Earth-observation capacity means for data buyers."
     }
   },
+  "resources/adaspace-in-orbit-ai-training": {
+    "zh-hk": {
+      "title": "Adaspace 太空算力：在軌訓練大模型 | KANTAO",
+      "description": "國星宇航（06935.HK）公布信通院第三方在軌測試：天秤星完成通義千問 Qwen3-32B 全參數訓練。太空算力對遙感數據買家意味著什麼。"
+    },
+    "en": {
+      "title": "Adaspace: AI Training Moves Into Orbit | KANTAO",
+      "description": "Adaspace (06935.HK) says CAICT tests confirm its Libra satellite trained Alibaba's Qwen3-32B in orbit. What that means for Earth-observation data buyers."
+    }
+  },
   "ai-facts": {
     "zh-hk": {
       "title": "KANTAO 官方事實 | KANTAO",
